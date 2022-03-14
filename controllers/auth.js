@@ -140,7 +140,10 @@ const revalidarToken = async ( req, res = response ) => {
     //console.log('Se requiere /');
     res.json( {
         ok: true,
+        name,
+        uid,
         token
+      
     });
 };
 
